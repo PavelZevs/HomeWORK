@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(113 155 101);
+}
+
+h1 {
+    color: coral;
+    font-size: 30px;
+    border: #0a0606;
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+h1:hover{
+    color: #0ac1ec;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    width: 340px;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #644f4f;
+    border-radius: 40px;
+}
+
+.send {
+    height: 40px;
+    border: none;
+    background: #6b0080;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.send:active {
+    box-shadow: 0 2px 0 #6b0080;
+    transform: translateY(3px);
+  }
+.item {
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item p {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #644f4f;
+    border-radius: 40px;
+    background: white;
+    cursor: text;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: #166113;
+    color: white;
+
+}
+.edit:active {
+    box-shadow: 0 2px 0 #166113;
+    transform: translateY(3px);
+  }
+.remove {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background: #0a0606;
+    color: white;
+}
+
+.remove:active {
+  box-shadow: 0 2px 0 #0a0606;
+  transform: translateY(3px);
+}
