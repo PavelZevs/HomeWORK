@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+  .product__item img:hover {
+    transform: scale(1.2);
+  }
+
+  .product__item {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav ul {
+    flex-wrap: wrap;
+  }
+
+  .block_home p {
+    font-size: 18px;
+    width: 70%;
+  }
+  ._About_ p {
+    font-size: 18px;
+  }
+
+  .product__item img {
+    width: 200px;
+    height: 200px;
+  }
+  .product__item .img {
+    height: 300%;
+  }
+
+  .learn_more {
+    width: 25%;
+  }
+}
+
+@media (max-width: 400px) {
+  .product__item img:hover {
+    transform: none;
+  }
+
+  .next,
+  .prev {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pages button {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+  }
+}
