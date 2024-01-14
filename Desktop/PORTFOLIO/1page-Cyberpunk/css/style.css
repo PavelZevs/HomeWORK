@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "Archangelsk";
+  src: url("./fonts/Archangelsk/Archangelsk.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+/* -----------------------------------HEADER */
+.header {
+  background-image: url(../images/BG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.icons_container {
+  display: flex;
+  gap: 40px;
+}
+.yellow__block {
+  background-color: #f8f200;
+  border-color: rgb(59, 53, 53);
+  max-width: 624px;
+  max-height: 369px;
+  margin: 360px 0 0 656px;
+}
+
+.yellow__block .text {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 70px 70px 25px 70px;
+}
+.yellow__block .learn__more {
+  background-color: #000;
+  border: #000;
+  color: #f8f200;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 19px 50px;
+  /* margin: 25px 0 0 70px; */
+  margin-left: 70px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+.yellow__block .learn__more:hover {
+  background-color: #7e7772;
+  transition: linear 0.2s;
+}
+
+/* --------------------Main Night__City */
+
+.night__city h2 {
+  color: #000;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+  margin-top: 70px;
+}
+.night__city span {
+  color: #52bedc;
+  font-weight: 700;
+  line-height: 34px;
+}
+.night__city p {
+  max-width: 952px;
+  color: #777;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+.block_1 {
+  display: grid;
+}
+.block_1 img:not(:last-child) {
+  margin-bottom: 32px;
+}
+.night__images {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 140px;
+  flex-wrap: wrap;
+}
+.block_2 img {
+  max-width: 788px;
+}
+/*------------------------------------ play_and_win */
+.play_and_win {
+  background-color: #000;
+  border: 5px solid red;
+  border-style: dashed;
+}
+.sale_logo {
+  display: flex;
+  gap: 89px;
+  align-items: end;
+  padding: 15px;
+}
+.sale_logo h4 {
+  color: #fff;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+}
+.play__ {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  max-width: 952px;
+  margin-top: 39px;
+  margin-bottom: 98px;
+}
+.form {
+  display: block;
+}
+.form_and_image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#comment {
+  border-style: dashed;
+  height: 120px;
+  text-align: center;
+  border-color: #777777;
+}
+
+#name,
+#email {
+  border-bottom: 1px solid #777777;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.agree_block {
+  display: flex;
+  margin-top: 15px;
+}
+
+.agree_text {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+  width: 265px;
+  padding-left: 24px;
+}
+
+.form .form__ {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: 460px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.btn {
+  display: inline-flex;
+  padding: 15px 50px;
+  align-items: center;
+  max-width: 192px;
+  cursor: pointer;
+  background: #f8f200;
+  color: #000;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  border: #f8f200;
+}
+.btn:hover {
+  background-color: #ff6600;
+  transition: linear 0.2s;
+}
+/* -----------------------------------HP_Cyberpunk */
+
+.HP_Cyberpunk {
+  background-color: #f8f200;
+}
+.HP_container {
+  display: flex;
+  padding-top: 70px;
+  /* gap: 32px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left_hp {
+  padding-bottom: 70px;
+}
+.left_hp img {
+  max-width: 624px;
+}
+.right_hp {
+  padding-bottom: 80px;
+}
+
+.right_hp h4 {
+  max-width: 560px;
+  color: #000;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.right_hp p {
+  max-width: 624px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+
+.hp__items li {
+  display: flex;
+  align-items: center;
+}
+.hp__logo {
+  margin-top: 26px;
+}
+.hp__item {
+  margin-right: 5px;
+}
+
+.right_hp .btn {
+  background-color: #000;
+  color: #f8f200;
+  border: #000;
+  margin-top: 40px;
+}
+.right_hp .btn:hover {
+  background-color: #ff6600;
+}
+
+/*--------------------------------------------- Play_Game */
+.Play_Game {
+  background-color: #000;
+}
+.Play_Game_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.play__img img {
+  max-width: 590px;
+  min-height: 717px;
+}
+.text__game {
+  color: #fff;
+}
+
+.text__game h4 {
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+  max-width: 490px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.main_li {
+  color: #52bedc;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+.items__img {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-top: 25px;
+  font-weight: 400;
+}
+.items__img img {
+  padding-right: 10px;
+}
+.main_li_choose {
+  color: #52bedc;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 75px;
+  padding-bottom: 25px;
+}
+/* ----------------------------------------Footer */
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 13px 0 13px 0;
+}
+.footer_logo {
+  display: flex;
+  gap: 30px;
+}
+.footer_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__bot {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.bot {
+  padding: 13px 0 13px 0;
+}
